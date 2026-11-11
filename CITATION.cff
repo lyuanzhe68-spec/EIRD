@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this software when using the archived EIRD statistical reproduction."
+title: "EIRD: Evidence-Interventional Residual Diagnosis — Statistical Reproduction"
+authors:
+  - family-names: Li
+    given-names: Yuanzhe
+version: 1.0.0
+date-released: 2026-11-11
+license: MIT
+repository-code: "https://github.com/lyuanzhe68-spec/EIRD"
+type: software

@@ -1,0 +1,172 @@
+{
+  "KITTI2015": {
+    "dataset": "KITTI2015",
+    "status": "EXTERNAL_EVALUATED",
+    "evaluable_images": 200,
+    "not_evaluable_images": 0,
+    "cluster_unit": "official_scene_id",
+    "cluster_count": 200,
+    "bootstrap_resamples": 10000,
+    "bootstrap_seed": 20260818,
+    "confidence_interval": "95% percentile, paired cluster resampling",
+    "arms": {
+      "M0_B16": {
+        "equal_image_mean": 0.15440534277162307,
+        "cluster_bootstrap_95": [
+          0.13578539044059756,
+          0.1725777851157966
+        ]
+      },
+      "M1_B16_DPS": {
+        "equal_image_mean": 0.17202154014421012,
+        "cluster_bootstrap_95": [
+          0.1532346145590182,
+          0.190674468087824
+        ]
+      },
+      "M2_B16_EIRD": {
+        "equal_image_mean": 0.16255839845881995,
+        "cluster_bootstrap_95": [
+          0.14336578248106915,
+          0.18164022932347065
+        ]
+      },
+      "M3_B16_DPS_EIRD": {
+        "equal_image_mean": 0.17685053049491678,
+        "cluster_bootstrap_95": [
+          0.15718009059785215,
+          0.19660449625060547
+        ]
+      }
+    },
+    "contrasts": [
+      {
+        "contrast": "M3-M1",
+        "equal_image_mean_delta": 0.004828990350706656,
+        "cluster_bootstrap_95": [
+          -0.0027331626156943483,
+          0.01261299609514298
+        ],
+        "improved": 100,
+        "declined": 100,
+        "equal": 0,
+        "wilcoxon_w": 9520.0,
+        "wilcoxon_two_sided_nominal_p": 0.5178324689244092,
+        "holm_p_three_contrasts": 0.5178324689244092
+      },
+      {
+        "contrast": "M3-M2",
+        "equal_image_mean_delta": 0.01429213203609685,
+        "cluster_bootstrap_95": [
+          0.012212085757469826,
+          0.01641983578332679
+        ],
+        "improved": 171,
+        "declined": 29,
+        "equal": 0,
+        "wilcoxon_w": 1549.0,
+        "wilcoxon_two_sided_nominal_p": 3.3017962795820544e-25,
+        "holm_p_three_contrasts": 9.905388838746164e-25
+      },
+      {
+        "contrast": "M3-M0",
+        "equal_image_mean_delta": 0.022445187723293736,
+        "cluster_bootstrap_95": [
+          0.015070139560922097,
+          0.02992835680023711
+        ],
+        "improved": 134,
+        "declined": 66,
+        "equal": 0,
+        "wilcoxon_w": 5525.0,
+        "wilcoxon_two_sided_nominal_p": 3.365580013735175e-08,
+        "holm_p_three_contrasts": 6.73116002747035e-08
+      }
+    ]
+  },
+  "ETH3D": {
+    "dataset": "ETH3D",
+    "status": "EXTERNAL_EVALUATED",
+    "evaluable_images": 27,
+    "not_evaluable_images": 0,
+    "cluster_unit": "physical_scene_family",
+    "cluster_count": 7,
+    "bootstrap_resamples": 10000,
+    "bootstrap_seed": 20260818,
+    "confidence_interval": "95% percentile, paired cluster resampling",
+    "arms": {
+      "M0_B16": {
+        "equal_image_mean": 0.13611892402663678,
+        "cluster_bootstrap_95": [
+          0.06370900405064757,
+          0.2069294605225722
+        ]
+      },
+      "M1_B16_DPS": {
+        "equal_image_mean": 0.14964603120590955,
+        "cluster_bootstrap_95": [
+          0.07678445772203249,
+          0.21996986149717243
+        ]
+      },
+      "M2_B16_EIRD": {
+        "equal_image_mean": 0.14382371040902445,
+        "cluster_bootstrap_95": [
+          0.07142435562942123,
+          0.2109462642806117
+        ]
+      },
+      "M3_B16_DPS_EIRD": {
+        "equal_image_mean": 0.15885000702525506,
+        "cluster_bootstrap_95": [
+          0.09082539477832988,
+          0.22792076733208172
+        ]
+      }
+    },
+    "contrasts": [
+      {
+        "contrast": "M3-M1",
+        "equal_image_mean_delta": 0.009203975819345503,
+        "cluster_bootstrap_95": [
+          0.003166707520483492,
+          0.01701191134341398
+        ],
+        "improved": 13,
+        "declined": 14,
+        "equal": 0,
+        "wilcoxon_w": 155.0,
+        "wilcoxon_two_sided_nominal_p": 0.4270208328962326,
+        "holm_p_three_contrasts": 0.4270208328962326
+      },
+      {
+        "contrast": "M3-M2",
+        "equal_image_mean_delta": 0.015026296616230603,
+        "cluster_bootstrap_95": [
+          0.003366448564911667,
+          0.03655128462734575
+        ],
+        "improved": 19,
+        "declined": 8,
+        "equal": 0,
+        "wilcoxon_w": 85.0,
+        "wilcoxon_two_sided_nominal_p": 0.011200115084648132,
+        "holm_p_three_contrasts": 0.0336003452539444
+      },
+      {
+        "contrast": "M3-M0",
+        "equal_image_mean_delta": 0.022731082998618323,
+        "cluster_bootstrap_95": [
+          0.01246419508403402,
+          0.0308884903382963
+        ],
+        "improved": 18,
+        "declined": 9,
+        "equal": 0,
+        "wilcoxon_w": 95.0,
+        "wilcoxon_two_sided_nominal_p": 0.022940203547477722,
+        "holm_p_three_contrasts": 0.045880407094955444
+      }
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+comparison,mean_difference,median_difference,positive_frames,negative_frames,zero_frames,statistic,p_two_sided,method,holm_p_two_focal_comparisons
+M3_minus_M1,0.04153047719606816,0.03734522298188411,29,3,0,12.0,3.259629011154175e-08,exact,6.51925802230835e-08
+M3_minus_M2,0.017479938717295907,0.022564008329499757,28,4,0,65.0,7.404014468193054e-05,exact,7.404014468193054e-05

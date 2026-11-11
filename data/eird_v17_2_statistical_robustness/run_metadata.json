@@ -1,0 +1,13 @@
+{
+  "source": "eird_v17_1_conditional_complementarity/",
+  "frame_unit": "paired Val32 frame",
+  "independent_scene_identity": "UNVERIFIED",
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 20260818,
+  "confidence_interval": "95% percentile, frame resampling",
+  "wilcoxon_alternative": "two-sided",
+  "scipy_version": "1.17.1",
+  "n_frames": 32,
+  "model_or_feature_extraction_ran": false,
+  "test64_accessed": false
+}
